@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CocosSharpGame4.Shared", "CocosSharpGame4\CocosSharpGame4.Shared\CocosSharpGame4.Shared.shproj", "{F3E45C80-A9BE-4E02-9CEC-5B7AC09A34E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpGame4.Droid", "CocosSharpGame4\CocosSharpGame4.Droid\CocosSharpGame4.Droid.csproj", "{D68844D3-80F3-41C8-B8C0-D94E60E82433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpGame4.iOS", "CocosSharpGame4\CocosSharpGame4.iOS\CocosSharpGame4.iOS.csproj", "{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CocosSharpGame4\CocosSharpGame4.Shared\EmptyProject.Shared.projitems*{610430d2-9d90-4a7f-a095-4da7ca52bebb}*SharedItemsImports = 4
+		CocosSharpGame4\CocosSharpGame4.Shared\EmptyProject.Shared.projitems*{d68844d3-80f3-41c8-b8c0-d94e60e82433}*SharedItemsImports = 4
+		CocosSharpGame4\CocosSharpGame4.Shared\EmptyProject.Shared.projitems*{f3e45c80-a9be-4e02-9cec-5b7ac09a34e0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhone.Build.0 = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D68844D3-80F3-41C8-B8C0-D94E60E82433}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Release|iPhone.Build.0 = Release|iPhone
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{610430D2-9D90-4A7F-A095-4DA7CA52BEBB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
