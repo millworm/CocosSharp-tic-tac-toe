@@ -21,7 +21,7 @@ namespace CocosSharpGame4.Shared
                // CCSprite.DefaultTexelToContentSizeRatio = 1.0f;
                 // Set world dimensions
                 gameView.DesignResolution = new CCSizeI(width, height);
-                gameView.Stats.Enabled = true;
+               // gameView.Stats.Enabled = true;
                 gameView.Stats.Scale = 2;
                 // Determine whether to use the high or low def versions of our images
                 // Make sure the default texel to content size ratio is set correctly

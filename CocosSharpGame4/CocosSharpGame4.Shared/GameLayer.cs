@@ -122,7 +122,7 @@ namespace CocosSharpGame4.Shared
                 {
 
                 }
-                label.Text = $"{touches[0].Location.X.ToString("0")}:{touches[0].Location.Y.ToString("0")}";
+                //label.Text = $"{touches[0].Location.X.ToString("0")}:{touches[0].Location.Y.ToString("0")}";
 
             }
 

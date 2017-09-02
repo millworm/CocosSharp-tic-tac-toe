@@ -4,3 +4,8 @@ CocosSharpGame4/CocosSharpGame4.iOS/packages.config
 CocosSharpGame4/CocosSharpGame4.iOS/
 CocosSharpGame4/CocosSharpGame4.Droid/bin/
 CocosSharpGame4/CocosSharpGame4.Droid/Assets/Content/Images - копия/
+CocosSharpGame4/game.psd
+packages/
+*.psd
+*.nupkg
+CocosSharpGame4/CocosSharpGame4.Droid/Properties/AndroidManifest.xml
