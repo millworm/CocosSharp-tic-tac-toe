@@ -146,10 +146,16 @@
     <AndroidAsset Include="Assets\Content\Images\Sound On.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Content\Images\Splash Background.png" />
+    <AndroidAsset Include="Assets\Content\Images\X Win.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Content\Images\X Win.png" />
+    <AndroidAsset Include="Assets\Content\Images\Solo Player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Images\Duo Players.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Images\Cell.png" />
   </ItemGroup>
   <Import Project="..\CocosSharpGame4.Shared\EmptyProject.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

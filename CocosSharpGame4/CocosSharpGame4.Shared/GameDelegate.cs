@@ -8,7 +8,7 @@ namespace CocosSharpGame4.Shared
 {
     public static class GameDelegate
     {
-        static CCGameView gameView;
+        public static CCGameView gameView;
         public static void LoadGame(object sender, EventArgs e)
         {
             gameView = sender as CCGameView;
@@ -21,7 +21,8 @@ namespace CocosSharpGame4.Shared
                // CCSprite.DefaultTexelToContentSizeRatio = 1.0f;
                 // Set world dimensions
                 gameView.DesignResolution = new CCSizeI(width, height);
-                //gameView.Stats.Enabled = true;
+                gameView.Stats.Enabled = true;
+                gameView.Stats.Scale = 2;
                 // Determine whether to use the high or low def versions of our images
                 // Make sure the default texel to content size ratio is set correctly
                 // Of course you're free to have a finer set of image resolutions e.g (ld, hd, super-hd)
@@ -44,17 +45,17 @@ namespace CocosSharpGame4.Shared
             }
         }
 
-        public static void GoToHowToScene()
+        public static void GoToDuoScene()
         {
             CCScene gameScene = new CCScene(gameView);
-            gameScene.AddLayer(new GameLayer());
-            gameScene.RunAction(new CCFadeIn(1f));
-            gameScene.Opacity = 0;
-            //gameView.RunWithScene(gameScene);
-            var dir = gameView.Director;
-            dir.PushScene(gameScene);
+            gameScene.AddLayer(new DuoGameLayer());
+
+            gameView.Director.PushScene(new CCTransitionFade(1f, gameScene));
         }
 
-
+        internal static void GoToSoloScene()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -68,7 +68,7 @@ namespace CocosSharpGame4.Droid
                 gameView.ContentManager.SearchPaths = contentSearchPaths;
 
                 CCScene gameScene = new CCScene(gameView);
-                gameScene.AddLayer(new GameLayer());
+                gameScene.AddLayer(new DuoGameLayer());
                 gameView.RunWithScene(gameScene);
             }
         }
